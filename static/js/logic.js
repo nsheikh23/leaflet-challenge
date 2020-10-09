@@ -157,7 +157,7 @@ function createMap(earthquakes) {
     var labels = ["<10", "10-30", "30-50", "50-70", "70-90", "90+"];
     div.innerHTML = '<div>Depth (km)</div>';
     for (var i = 0; i < depth.length; i++){
-      div.innerHTML += '<i style="background:' + legendColor(depth[i]) + '">&nbsp;&nbsp;&nbsp;</i>&nbsp;'+
+      div.innerHTML += '<i style="background:' + legendColor(depth[i]) + '">&nbsp;&nbsp;&nbsp;&nbsp;</i>&nbsp;'+
                       labels[i] + '<br>';
     }
     return div;
