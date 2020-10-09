@@ -112,7 +112,7 @@ function createMap(earthquakes) {
     center: [
       15.5994, -28.6731
     ],
-    zoom: 3,
+    zoom: 2,
     layers: [satellite, faultline, earthquakes]
   });
 
