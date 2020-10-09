@@ -122,18 +122,49 @@ function createMap(earthquakes) {
   L.control.layers(baseMaps, overlayMaps, {
     collapsed: false
   }).addTo(myMap);
+
+  function legendColor(depth){
+    if (depth < 10){
+      return "lime"
+    }
+    else if (depth < 30) {
+      return "green"
+    }
+    else if (depth < 50) {
+      return "yellow"
+    }
+    else if (depth < 70) {
+      return "orange"
+    }
+    else if (depth < 90) {
+      return "red"
+    }
+    else {
+      return "maroon"
+    }
+  }
+  
+  // Create a legend to display information about our map
+  var legend = L.control({
+    position: "bottomright",
+    fillColor: "white"
+  });
+  
+  // When the layer control is added, insert a div with the class of "legend"
+  legend.onAdd = function() {
+    var div = L.DomUtil.create("div", "legend");
+    var depth = [9, 29, 49, 69, 89, 500];
+    var labels = ["<10", "10-30", "30-50", "50-70", "70-90", "90+"];
+    div.innerHTML = '<div><b>Legend</b></div>';
+    for (var i = 0; i < depth.length; i++){
+      div.innerHTML += '<i style="background:' + legendColor(depth[i]) + '">&nbsp;&nbsp;&nbsp;</i>&nbsp;'+
+                      labels[i] + '<br>';
+    }
+    return div;
+  };
+  // Add the legend to the map
+  legend.addTo(myMap);
 }
 
-// Create a legend to display information about our map
-var info = L.control({
-  position: "bottomright"
-});
 
-// When the layer control is added, insert a div with the class of "legend"
-info.onAdd = function() {
-  var div = L.DomUtil.create("div", "legend");
-  return div;
-};
-// Add the info legend to the map
-info.addTo(myMap);
 
