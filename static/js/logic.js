@@ -123,3 +123,4 @@ function createMap(earthquakes) {
     collapsed: false
   }).addTo(myMap);
 }
+
