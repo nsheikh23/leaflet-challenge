@@ -35,6 +35,8 @@ https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_bo
 ## Analysis
 As expected, it can be seen that majority of the earthquakes occurred at the boundaries of the tectonic plates. However, something interesting to note is the depth of these earthquakes. In North America, it can be seen there were numerous events but they were mostly less than 10km deep. In contrast, western South America had seemingly fewer earthquakes but they were much deeper. There appears to be greater stress between the Nazca plate and South American plate. A similar pattern can be observed in the Pacific with the Pacific plate clashing with the Australian, the Filipino, and the North American plates. There is a lot of tension causing deeper earthquakes.
 
+In the future I would like to continue this project and add heatmap, clusters and a timelapse. 
+
 ### Satellite Image
 ![Satellite Image](Images/Satellite.PNG)
 
@@ -43,3 +45,5 @@ As expected, it can be seen that majority of the earthquakes occurred at the bou
 
 ### Outdoors Image
 ![Outdoors Image](Images/OutdoorsTectonic.PNG)
+
+
