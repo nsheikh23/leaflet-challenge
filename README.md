@@ -32,6 +32,9 @@ https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_bo
 
    * Another overlay map was created for tectonic plates that gives the user power to turn on or off each layer independently.
 
+## Analysis
+As expected, it can be seen that majority of the earthquakes occurred at the boundaries of the tectonic plates. However, something interesting to note is the depth versus frequency of these earthquakes. 
+
 ### Satellite Image
 ![Satellite Image](Images/Satellite.PNG)
 
