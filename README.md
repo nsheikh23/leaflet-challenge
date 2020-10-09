@@ -31,3 +31,5 @@ https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_bo
    * This data illustrated a relationship between the tectonic plates and the seismic activity
 
    * Another overlay map was created for tectonic plates that gives the user power to turn on or off each layer independently.
+
+
