@@ -37,3 +37,6 @@ https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_bo
 
 ### Grayscale Image
 ![Grayscale Image](Images/GrayscalePopup.PNG)
+
+### Outdoors Image
+![Outdoors Image](Images/OutdoorsTectonic.PNG)
