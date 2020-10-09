@@ -34,3 +34,6 @@ https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_bo
 
 ### Satellite Image
 ![Satellite Image](Images/Satellite.PNG)
+
+### Grayscale Image
+![Grayscale Image](Images/GrayscalePopup.PNG)
