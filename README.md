@@ -1,14 +1,19 @@
 # Leaflet-challenge - Visualizing Data with Leaflet
 
-## Overview
-
 ![1-Logo](Images/1-Logo.png)
 
-The United States Geological Survey, or USGS, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
-
-The USGS collects a massive amount of data from all over the world each day. For this analysis, data on all earthquakes worldwide over the past 30 days was used and displayed on the map.
+## Project Objective
+The purpose of this project is to analyze the United States Geological Survey, or USGS, data on all earthquakes worldwide over the past 30 days and display it on the map. USGS is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
 
 The map can be accessed at: https://nsheikh23.github.io/leaflet-challenge/
+
+## Methods Used
+* Data Visualization
+
+## Technologies
+* JavaScript
+* Leaflet
+* HTML, CSS
 
 ## Tasks Performed
 
