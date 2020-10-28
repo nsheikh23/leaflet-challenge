@@ -1,5 +1,7 @@
 # Leaflet-challenge - Visualizing Data with Leaflet
 
+#### -- Project Status: [Completed]
+
 ![1-Logo](Images/1-Logo.png)
 
 ## Project Objective
